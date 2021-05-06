@@ -1,0 +1,253 @@
+Script started on 2021-01-03 22:38:18+08:00 [TERM="xterm" TTY="/dev/pty0" COLUMNS="80" LINES="24"]
+]0;~/checkpoint 2
+[32mUSER@LAPTOP-6TT6RA2U [33m~/checkpoint 2[0m
+$ make clean
+rm *.hex *.ihx *.lnk *.lst *.map *.mem *.rel *.rst *.sym
+rm: cannot remove '*.ihx': No such file or directory
+rm: cannot remove '*.lnk': No such file or directory
+make: *** [Makefile:25: clean] Error 1
+]0;~/checkpoint 2
+[32mUSER@LAPTOP-6TT6RA2U [33m~/checkpoint 2[0m
+$ make
+sdcc -c  testpreempt.c
+[?25l[H[80X[80C[32m
+USER@LAPTOP-6TT6RA2U [33m~/checkpoint 2[m[45X[45C
+$ make clean[68X[68C
+rm *.hex *.ihx *.lnk *.lst *.map *.mem *.rel *.rst *.sym[24X[24C
+rm: cannot remove '*.ihx': No such file or directory[28X[28C
+rm: cannot remove '*.lnk': No such file or directory[28X[28C
+make: *** [Makefile:25: clean] Error 1[42X[42C
+[80X[80C[32m
+USER@LAPTOP-6TT6RA2U [33m~/checkpoint 2[m[45X[45C
+$ make[74X[74C
+sdcc -c  testpreempt.c[58X[58C
+[80X[80C
+[80X[80C
+[80X[80C
+[80X[80C
+[80X[80C
+[80X[80C
+[80X[80C
+[80X[80C
+[80X[80C
+[80X[80C
+[80X[80C
+[80X[80C
+[80X[80C[12;1H[?25h[?25ltestpreempt.c:58: [?25h[?25lwarning 158: overflow in implicit constant conversion
+[?25h[?25l[H[80X[80C[32m
+USER@LAPTOP-6TT6RA2U [33m~/checkpoint 2[m[45X[45C
+$ make clean[68X[68C
+rm *.hex *.ihx *.lnk *.lst *.map *.mem *.rel *.rst *.sym[24X[24C
+rm: cannot remove '*.ihx': No such file or directory[28X[28C
+rm: cannot remove '*.lnk': No such file or directory[28X[28C
+make: *** [Makefile:25: clean] Error 1[42X[42C
+[80X[80C[32m
+USER@LAPTOP-6TT6RA2U [33m~/checkpoint 2[m[45X[45C
+$ make[74X[74C
+sdcc -c  testpreempt.c[58X[58C
+testpreempt.c:58: warning 158: overflow in implicit constant conversion[9X[9C
+[80X[80C
+[80X[80C
+[80X[80C
+[80X[80C
+[80X[80C
+[80X[80C
+[80X[80C
+[80X[80C
+[80X[80C
+[80X[80C
+[80X[80C
+[80X[80C[13;1H[?25h[?25l[H[80X[80C[32m
+USER@LAPTOP-6TT6RA2U [33m~/checkpoint 2[m[45X[45C
+$ make clean[68X[68C
+rm *.hex *.ihx *.lnk *.lst *.map *.mem *.rel *.rst *.sym[24X[24C
+rm: cannot remove '*.ihx': No such file or directory[28X[28C
+rm: cannot remove '*.lnk': No such file or directory[28X[28C
+make: *** [Makefile:25: clean] Error 1[42X[42C
+[80X[80C[32m
+USER@LAPTOP-6TT6RA2U [33m~/checkpoint 2[m[45X[45C
+$ make[74X[74C
+sdcc -c  testpreempt.c[58X[58C
+testpreempt.c:58: warning 158: overflow in implicit constant conversion[9X[9C
+[80X[80C
+[80X[80C
+[80X[80C
+[80X[80C
+[80X[80C
+[80X[80C
+[80X[80C
+[80X[80C
+[80X[80C
+[80X[80C
+[80X[80C
+[80X[80C[13;1H[?25h[?25l[H[80X[80C[32m
+USER@LAPTOP-6TT6RA2U [33m~/checkpoint 2[m[45X[45C
+$ make clean[68X[68C
+rm *.hex *.ihx *.lnk *.lst *.map *.mem *.rel *.rst *.sym[24X[24C
+rm: cannot remove '*.ihx': No such file or directory[28X[28C
+rm: cannot remove '*.lnk': No such file or directory[28X[28C
+make: *** [Makefile:25: clean] Error 1[42X[42C
+[80X[80C[32m
+USER@LAPTOP-6TT6RA2U [33m~/checkpoint 2[m[45X[45C
+$ make[74X[74C
+sdcc -c  testpreempt.c[58X[58C
+testpreempt.c:58: warning 158: overflow in implicit constant conversion[9X[9C
+[80X[80C
+[80X[80C
+[80X[80C
+[80X[80C
+[80X[80C
+[80X[80C
+[80X[80C
+[80X[80C
+[80X[80C
+[80X[80C
+[80X[80C
+[80X[80C[13;1H[?25hsdcc -c  preemptive.c
+[?25lpreemptive.c:180: [?25h[?25lpreemptive.c:180: warning 85: in function ThreadCreate unreferenced function arg
+ument : 'fp'[68X[68C
+[?25h[?25l[H[80X[80C[32m
+USER@LAPTOP-6TT6RA2U [33m~/checkpoint 2[m[45X[45C
+$ make clean[68X[68C
+rm *.hex *.ihx *.lnk *.lst *.map *.mem *.rel *.rst *.sym[24X[24C
+rm: cannot remove '*.ihx': No such file or directory[28X[28C
+rm: cannot remove '*.lnk': No such file or directory[28X[28C
+make: *** [Makefile:25: clean] Error 1[42X[42C
+[80X[80C[32m
+USER@LAPTOP-6TT6RA2U [33m~/checkpoint 2[m[45X[45C
+$ make[74X[74C
+sdcc -c  testpreempt.c[58X[58C
+testpreempt.c:58: warning 158: overflow in implicit constant conversion[9X[9C
+sdcc -c  preemptive.c[59X[59C
+preemptive.c:180: warning 85: in function ThreadCreate unreferenced function arg
+ument : 'fp'[68X[68C
+[80X[80C
+[80X[80C
+[80X[80C
+[80X[80C
+[80X[80C
+[80X[80C
+[80X[80C
+[80X[80C
+[80X[80C[16;1H[?25h[?25l[H[80X[80C[32m
+USER@LAPTOP-6TT6RA2U [33m~/checkpoint 2[m[45X[45C
+$ make clean[68X[68C
+rm *.hex *.ihx *.lnk *.lst *.map *.mem *.rel *.rst *.sym[24X[24C
+rm: cannot remove '*.ihx': No such file or directory[28X[28C
+rm: cannot remove '*.lnk': No such file or directory[28X[28C
+make: *** [Makefile:25: clean] Error 1[42X[42C
+[80X[80C[32m
+USER@LAPTOP-6TT6RA2U [33m~/checkpoint 2[m[45X[45C
+$ make[74X[74C
+sdcc -c  testpreempt.c[58X[58C
+testpreempt.c:58: warning 158: overflow in implicit constant conversion[9X[9C
+sdcc -c  preemptive.c[59X[59C
+preemptive.c:180: warning 85: in function ThreadCreate unreferenced function arg
+ument : 'fp'[68X[68C
+[80X[80C
+[80X[80C
+[80X[80C
+[80X[80C
+[80X[80C
+[80X[80C
+[80X[80C
+[80X[80C
+[80X[80C[16;1H[?25h[?25l[H[80X[80C[32m
+USER@LAPTOP-6TT6RA2U [33m~/checkpoint 2[m[45X[45C
+$ make clean[68X[68C
+rm *.hex *.ihx *.lnk *.lst *.map *.mem *.rel *.rst *.sym[24X[24C
+rm: cannot remove '*.ihx': No such file or directory[28X[28C
+rm: cannot remove '*.lnk': No such file or directory[28X[28C
+make: *** [Makefile:25: clean] Error 1[42X[42C
+[80X[80C[32m
+USER@LAPTOP-6TT6RA2U [33m~/checkpoint 2[m[45X[45C
+$ make[74X[74C
+sdcc -c  testpreempt.c[58X[58C
+testpreempt.c:58: warning 158: overflow in implicit constant conversion[9X[9C
+sdcc -c  preemptive.c[59X[59C
+preemptive.c:180: warning 85: in function ThreadCreate unreferenced function arg
+ument : 'fp'[68X[68C
+[80X[80C
+[80X[80C
+[80X[80C
+[80X[80C
+[80X[80C
+[80X[80C
+[80X[80C
+[80X[80C
+[80X[80C[16;1H[?25hsdcc  -o testpreempt.hex testpreempt.rel preemptive.rel
+[?25l[H[80X[80C[32m
+USER@LAPTOP-6TT6RA2U [33m~/checkpoint 2[m[45X[45C
+$ make clean[68X[68C
+rm *.hex *.ihx *.lnk *.lst *.map *.mem *.rel *.rst *.sym[24X[24C
+rm: cannot remove '*.ihx': No such file or directory[28X[28C
+rm: cannot remove '*.lnk': No such file or directory[28X[28C
+make: *** [Makefile:25: clean] Error 1[42X[42C
+[80X[80C[32m
+USER@LAPTOP-6TT6RA2U [33m~/checkpoint 2[m[45X[45C
+$ make[74X[74C
+sdcc -c  testpreempt.c[58X[58C
+testpreempt.c:58: warning 158: overflow in implicit constant conversion[9X[9C
+sdcc -c  preemptive.c[59X[59C
+preemptive.c:180: warning 85: in function ThreadCreate unreferenced function arg
+ument : 'fp'[68X[68C
+sdcc  -o testpreempt.hex testpreempt.rel preemptive.rel[25X[25C
+[80X[80C
+[80X[80C
+[80X[80C
+[80X[80C
+[80X[80C
+[80X[80C
+[80X[80C
+[80X[80C[17;1H[?25h[?25l[H[80X[80C[32m
+USER@LAPTOP-6TT6RA2U [33m~/checkpoint 2[m[45X[45C
+$ make clean[68X[68C
+rm *.hex *.ihx *.lnk *.lst *.map *.mem *.rel *.rst *.sym[24X[24C
+rm: cannot remove '*.ihx': No such file or directory[28X[28C
+rm: cannot remove '*.lnk': No such file or directory[28X[28C
+make: *** [Makefile:25: clean] Error 1[42X[42C
+[80X[80C[32m
+USER@LAPTOP-6TT6RA2U [33m~/checkpoint 2[m[45X[45C
+$ make[74X[74C
+sdcc -c  testpreempt.c[58X[58C
+testpreempt.c:58: warning 158: overflow in implicit constant conversion[9X[9C
+sdcc -c  preemptive.c[59X[59C
+preemptive.c:180: warning 85: in function ThreadCreate unreferenced function arg
+ument : 'fp'[68X[68C
+sdcc  -o testpreempt.hex testpreempt.rel preemptive.rel[25X[25C
+[80X[80C
+[80X[80C
+[80X[80C
+[80X[80C
+[80X[80C
+[80X[80C
+[80X[80C
+[80X[80C[17;1H[?25h[?25l[H[80X[80C[32m
+USER@LAPTOP-6TT6RA2U [33m~/checkpoint 2[m[45X[45C
+$ make clean[68X[68C
+rm *.hex *.ihx *.lnk *.lst *.map *.mem *.rel *.rst *.sym[24X[24C
+rm: cannot remove '*.ihx': No such file or directory[28X[28C
+rm: cannot remove '*.lnk': No such file or directory[28X[28C
+make: *** [Makefile:25: clean] Error 1[42X[42C
+[80X[80C[32m
+USER@LAPTOP-6TT6RA2U [33m~/checkpoint 2[m[45X[45C
+$ make[74X[74C
+sdcc -c  testpreempt.c[58X[58C
+testpreempt.c:58: warning 158: overflow in implicit constant conversion[9X[9C
+sdcc -c  preemptive.c[59X[59C
+preemptive.c:180: warning 85: in function ThreadCreate unreferenced function arg
+ument : 'fp'[68X[68C
+sdcc  -o testpreempt.hex testpreempt.rel preemptive.rel[25X[25C
+[80X[80C
+[80X[80C
+[80X[80C
+[80X[80C
+[80X[80C
+[80X[80C
+[80X[80C
+[80X[80C[17;1H[?25h]0;~/checkpoint 2
+[32mUSER@LAPTOP-6TT6RA2U [33m~/checkpoint 2[0m
+$ exit
+exit
+
+Script done on 2021-01-03 22:38:27+08:00 [COMMAND_EXIT_CODE="0"]
